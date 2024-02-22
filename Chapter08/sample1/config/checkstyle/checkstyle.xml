@@ -13,7 +13,7 @@
 
 <module name="Checker">
   <module name="TreeWalker">
-    <module name="ConstantName"/>
-      <property name="applyToPublic" value="false"/>
+    <module name="ConstantName">
+      <property name="applyToPublic" value="true"/>
   </module>
 </module>
